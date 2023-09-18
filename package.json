@@ -1,0 +1,18 @@
+{
+  "name": "plantilla-bot-bun",
+  "module": "src/index.js",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "@types/module-alias": "^2.0.2",
+    "module-alias": "^2.2.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
